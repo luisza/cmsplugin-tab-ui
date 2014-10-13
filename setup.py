@@ -6,7 +6,7 @@ setup(
     long_description=open('README.rst').read(),
     author='Luisza',
     license = "GPLv2",
-    author_email='luis.zarate@solvosoft.com',
+    author_email='luisza14@gmail.com',
     url='http://github.com/luisza/cmsplugin-tab-ui',
     packages=find_packages(),
     keywords='tab django cms django-cms plugin',
