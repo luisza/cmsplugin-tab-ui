@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 setup(
     name='cmsplugin_tab_ui',
-    version='0.1',
+    version='0.1.2',
     description='Tab plugin for django cms with Jquery ui',
     long_description=open('README.rst').read(),
     author='Luisza',
