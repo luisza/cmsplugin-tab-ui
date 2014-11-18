@@ -3,3 +3,4 @@ include LICENSE
 include requirements.txt
 graft cmsplugin_tab_ui/templates
 graft cmsplugin_tab_ui/static
+graft cmsplugin_tab_ui/locale

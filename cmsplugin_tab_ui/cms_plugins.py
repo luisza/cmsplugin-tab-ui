@@ -20,13 +20,17 @@ class TabUiListPlugin(CMSPluginBase):
         })
         return context
 
+plugin_pool.register_plugin(TabUiListPlugin)
+
 class TabUiPlugin(CMSPluginBase):
     model = TabUi
     name = _('Tab Field')
     render_template = 'cmsplugin_tab_ui/tabfield.html'
     allow_children = True 
-    #child_classes = ['CMSPluginBase']
-    parent_classes = ['TabUiListPlugin']
+    #require_parent = True 
+    #parent_classes = ['TabUiListPlugin',]
+    #child_classes = None
+
     
     def render(self, context, instance, placeholder):
         context.update({
@@ -35,5 +39,5 @@ class TabUiPlugin(CMSPluginBase):
                 })
         return context  
     
-plugin_pool.register_plugin(TabUiListPlugin)
+
 plugin_pool.register_plugin(TabUiPlugin)

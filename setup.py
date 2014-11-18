@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 setup(
     name='cmsplugin_tab_ui',
-    version='0.1.2',
+    version='1.0',
     description='Tab plugin for django cms with Jquery ui',
     long_description=open('README.rst').read(),
     author='Luisza',
     license = "GPLv2",
-    author_email='luisza14@gmail.com',
+    author_email='luis.zarate@solvosoft.com',
     url='http://github.com/luisza/cmsplugin-tab-ui',
     packages=find_packages(),
     keywords='tab django cms django-cms plugin',
